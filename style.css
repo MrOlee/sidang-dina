@@ -172,7 +172,18 @@ footer { margin-top: 58px; color: var(--muted); font-size: .7rem; }
 .thanks { margin: 0; }
 .footer-divider { width: 42px; height: 1px; margin: 28px auto 20px; background: rgba(194,161,95,.55); }
 .creator-claim { margin: 0; color: var(--forest-2); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
-.creator-claim strong { color: var(--gold); font-weight: 600; }
+.creator-claim a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.creator-claim a:hover {
+  text-decoration: underline;
+}
 .copyright { margin: 8px 0 0; color: var(--ink); font-size: .63rem; font-weight: 500; }
 .disclaimer { max-width: 530px; margin: 13px auto 0; color: #8a8d88; font-size: .56rem; line-height: 1.75; }
 .music-toggle {
