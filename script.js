@@ -1,4 +1,4 @@
-const EVENT_DATE = new Date("2026-09-10T16:00:00+07:00");
+const EVENT_DATE = new Date("2026-09-15T16:00:00+07:00");
 
 const $ = (selector) => document.querySelector(selector);
 const pad = (value) => String(value).padStart(2, "0");
